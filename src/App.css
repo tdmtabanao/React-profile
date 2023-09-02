@@ -2,6 +2,7 @@ html, body {
     padding: 0;
     margin: 0;
     flex-direction: column;
+    min-height: 200vh;
     
   }
   
@@ -10,7 +11,7 @@ html, body {
     height: 150px;
     display: flex;
     align-items: flex-start;
-    background-color: #9454D1;
+    background-color: #272625;
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -22,5 +23,38 @@ html, body {
     position: absolute;
     align-items: flex-start;
     flex-direction: column;
-    background-color: #3f3944;
+    background-color: #efc770;
+  }
+
+  .nav-text{
+    top: 30px;
+    left: 37px;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(232, 169, 11);
+  }
+
+  .btn1 {
+    top: 60px;
+    color: rgb(255, 255, 255);
+    right: 310px;
+    margin: auto;
+    position: absolute;
+    font-size: 22px;
+  }
+  .btn2 {
+    top: 60px;
+    color: rgb(255, 255, 255);
+    right: 190px;
+    margin: auto;
+    position: absolute;
+    font-size: 22px;
+  }
+  .btn3 {
+    top: 60px;
+    color: rgb(255, 255, 255);
+    right: 70px;
+    margin: auto;
+    position: absolute;
+    font-size: 22px;
   }
