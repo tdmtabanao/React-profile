@@ -5,9 +5,9 @@ import './App.css'
 const App = () => {
 
     return(
-        <div classname="App-main">
-            <div classname="navbar-container">
-                portfolio
+        <div className='App-main'>
+            <div className='navbar-container'>
+            <p>DANIEL'S PORTFOLIO</p>
             </div>
             <div className='footer-container'>
                 <p>Footer</p>
